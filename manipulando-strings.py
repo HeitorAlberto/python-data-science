@@ -1,0 +1,13 @@
+string = "curso de python"
+
+print(type(string)) # retorna o tipo de dado da variável
+
+string = string.replace("python", "análise de dados") # replace() permite modificar o conjunto de caracteres por um novo conjunto
+
+string.startswith() # Retorna true ou false
+
+string.endswith() # Retorna true ou false
+
+string.isdigit() # Retorna true se for números e false se houver alguma letra
+
+string.capitalize() # Adiciona letras maiúsculas no ínicio de cada palavra
