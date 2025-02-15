@@ -1,4 +1,5 @@
-print(df.head())  		      # Mostra as primeiras 5 linhas
+print(df.head())  		      # Mostra as primeiras 5 linhas por padrão
+print(df.head(10))          # É possível retornar o número de linhas desejado: "head(2)", "head(7)", "head(10)" ...
 print(df.info())  		      # Exibe informações gerais, incluindo valores nulos
 print(df.describe())  	    # Estatísticas descritivas das colunas numéricas
 
