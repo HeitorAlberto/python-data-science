@@ -1,4 +1,4 @@
-import numpay as np
+import numpy as np
 
 np.sqrt(9)  #Raiz quadrada de 9: 3
 
