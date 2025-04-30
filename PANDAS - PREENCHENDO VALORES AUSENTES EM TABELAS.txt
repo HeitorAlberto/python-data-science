@@ -1,0 +1,7 @@
+df.isna().sum()
+#Soma a quantidade de valores ausentes (isna = true).
+
+
+df.["coluna"].fillna(value = media, inplace = True)
+# fillna() preenche valores ausentes, nesse caso com a média.
+# "inplace = True" salva o valor no df original.

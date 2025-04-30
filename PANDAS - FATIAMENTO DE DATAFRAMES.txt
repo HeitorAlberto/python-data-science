@@ -1,0 +1,11 @@
+df
+#Retorna todas as colunas
+
+df[ "coluna_inicial" : "coluna_final" ]
+#Retorna um intervalo de colunas
+
+df[ df["coluna"] < 2 ]
+#Retorna os valores que atendem ao requisito especificado
+
+df[ ["coluna1","coluna2"] ]
+#Retorna as colunas específicas

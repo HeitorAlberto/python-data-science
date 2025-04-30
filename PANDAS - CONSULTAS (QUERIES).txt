@@ -1,0 +1,10 @@
+df.coluna.describe()
+# Retorna um resumo da coluna especificada.
+
+
+df2 = df.query("10 < coluna < 20")
+# Será gerado uma nova tabela apenas com os valores que atendem ao intervalo.
+
+
+df3 = df2.query("coluna > 200")
+# Será gerado uma nova tabela apenas com os valores maiores que 200.
