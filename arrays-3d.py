@@ -24,7 +24,5 @@ a = np.array([
 
 
 print(a)
-print("---------------------------------------------------")
-print(a.ndim, "(dimensões)")
-print("---------------------------------------------------")
-print(a.shape, " - 2 grupos /  3 lista / 4 'números' em cada lista")
+print(a.ndim)		#Retorna o número de dimensões
+print(a.shape)		#Retorna o número de linhas e colunas
